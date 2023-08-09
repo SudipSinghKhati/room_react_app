@@ -38,7 +38,7 @@ const UserSchema = new mongoose.Schema({
     },
     location: {
         type: String,
-		default: 'Canada',
+		default: 'Nepal',
 		minlength: 1,
 		trim: true
     },

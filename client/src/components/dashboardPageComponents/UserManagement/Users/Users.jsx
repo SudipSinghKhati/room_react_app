@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
-import './Users.css'
-import mailIcon from '../../../../assets/mailicon.svg'
-import phoneIcon from './../../../../assets/phoneicon.svg'
 import editIcon from '../../../../assets/edit-icon.svg'
+import mailIcon from '../../../../assets/mailicon.svg'
+import { deleteUser } from './../../../../actions/admin'
 import deleteIcon from './../../../../assets/delete-icon.svg'
 import flaggedIcon from './../../../../assets/flagged.png'
-import { deleteUser } from './../../../../actions/admin'
+import phoneIcon from './../../../../assets/phoneicon.svg'
+import './Users.css'
 
 export class Users extends Component {
 
@@ -33,7 +33,7 @@ export class Users extends Component {
                             <img src={image_url} alt="user" id='user_CardPhoto'/>
                             <div id='user_CardInfo'>
                                 <h2 id='user_CardName'>{firstName} {lastName}</h2>
-                                <h3 id='user_CardLocation'>{location}</h3>
+                                <h3 id='user_CardLocation'>Nepal</h3>
                                 <ul id='user_CardContact'>
                                     <li className='user_CardContactInfo'>
                                         <img src={mailIcon} alt="mail icon"/>{' '} {email}
