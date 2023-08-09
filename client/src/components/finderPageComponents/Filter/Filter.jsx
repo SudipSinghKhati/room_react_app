@@ -51,14 +51,14 @@ export class Filter extends Component {
                         <td className='filterItem'>
                             <select name="price" value={price} id="price" className='select select4' onChange={ changeHandler }>
                                 <option value="">Price</option>
-                                <option value="$0-$300">$0-$300</option>
-                                <option value="$330-$600">$330-$600</option>
-                                <option value="$600-$900">$600-$900</option>
-                                <option value="$900-$1200">$900-$1200</option>
-                                <option value="$1200-$1500">$1200-$1500</option>
-                                <option value="$1500-$2000">$1500-$2000</option>
-                                <option value="$2000-$3000">$2000-$3000</option>
-                                <option value="$3000+">$3000+</option>
+                                <option value="Rs.5000-Rs.7000">Rs.5000-Rs.7000</option>
+                                <option value="Rs.8000-Rs.9000">Rs.8000-Rs.9000</option>
+                                <option value="Rs.10000-Rs.13000">Rs.10000-Rs.13000</option>
+                                <option value="Rs.14000-Rs.16000">Rs.14000-Rs.16000</option>
+                                <option value="Rs.17000-Rs.19000">Rs.17000-Rs.19000</option>
+                                <option value="Rs.20000-Rs.22000">Rs.20000-Rs.22000</option>
+                                <option value="Rs.23000-Rs.25000">Rs.23000-Rs.25000</option>
+                                <option value="Rs.25000+">Rs.25000+</option>
                             </select>
                         </td>
                         <td className='filterItem viewIconContainer'>

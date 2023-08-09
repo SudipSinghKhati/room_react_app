@@ -69,14 +69,14 @@ class MakePost extends Component {
                         <label htmlFor="inputPrice">Price</label>
                         <select id="inputPrice" className="form-control" value={ inputPrice} onChange = { this.changeHandler } >
                                 <option defaultValue>Choose...</option>
-                                <option >$0-$300</option>
-                                <option >$330-$600</option>
-                                <option >$600-$900</option>
-                                <option >$900-$1200</option>
-                                <option >$1200-$1500</option>
-                                <option >$1500-$2000</option>
-                                <option >$2000-$3000</option>
-                                <option >$3000+</option>
+                                <option >Rs.5000-Rs.7000</option>
+                                <option >Rs.8000-Rs.9000</option>
+                                <option >Rs.10000-Rs.13000</option>
+                                <option >Rs.14000-Rs.16000</option>
+                                <option >Rs.17000-Rs.19000</option>
+                                <option >Rs.20000-Rs.22000</option>
+                                <option >Rs.23000-Rs.25000</option>
+                                <option >Rs.25000+</option>
                         </select>
                     </div>
                     <div className="form-group col-md-4">
@@ -162,7 +162,7 @@ class MakePost extends Component {
                 <div className="form-group">
                         <label htmlFor="inputDescription">Description:</label>
                         <textarea className="form-control rounded-0" id="inputDescription" rows="10" 
-                        placeholder="Try Something Like:&#13;&#13;Unit: One bedroom for rent in a 2 bedroom basement apartment in Harbord Village, starting November 1, 2020.&#10;Price: $1150 (includes internet + utilities).&#10;First and last month’s rent required.&#10;Rent Control: Unit was used for residential purposes prior to Nov 15 2018.&#10;Location: Bathurst and Harbord&#10;Relationship to unit: Current tenant seeking roommate.&#10;Lease Term: 12 months, preferably" value={ inputDescription } onChange = { this.changeHandler } />
+                        placeholder="Try Something Like:&#13;&#13;Unit: One bedroom for rent in a 2 bedroom basement apartment in Harbord Village, starting November 1, 2020.&#10;Price: Rs.5000-Rs.25000+ (includes internet + utilities).&#10;First and last month’s rent required.&#10;Rent Control: Unit was used for residential purposes prior to August 1 2023.&#10;Location: Kathmandu, Bhaktapur, Lalitpur & Kritipur&#10;Relationship to unit: Current tenant seeking room.&#10;Lease Term: 12 months, preferably" value={ inputDescription } onChange = { this.changeHandler } />
                 </div>
                 <div className="form-group">
                     <label htmlFor="uploadFile">Upload photos</label>

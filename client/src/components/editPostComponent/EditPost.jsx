@@ -83,14 +83,14 @@ class EditPost extends Component {
                         <label htmlFor="inputPrice">Price</label>
                         <select id="inputPrice" className="form-control" value={ inputPrice} onChange = { this.changeHandler } >
                                 <option defaultValue>Choose...</option>
-                                <option >$0-$300</option>
-                                <option >$330-$600</option>
-                                <option >$600-$900</option>
-                                <option >$900-$1200</option>
-                                <option >$1200-$1500</option>
-                                <option >$1500-$2000</option>
-                                <option >$2000-$3000</option>
-                                <option >$3000+</option>
+                                <option >Rs.5000-Rs.7000</option>
+                                <option >Rs.8000-Rs.9000</option>
+                                <option >Rs.10000-Rs.13000</option>
+                                <option >Rs.14000-Rs.16000</option>
+                                <option >Rs.17000-Rs.19000</option>
+                                <option >Rs.20000-Rs.22000</option>
+                                <option >Rs.23000-Rs.25000</option>
+                                <option >Rs.25000+</option>
                         </select>
                     </div>
                     <div className="form-group col-md-4">
