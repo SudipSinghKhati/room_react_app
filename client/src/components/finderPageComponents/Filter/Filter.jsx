@@ -12,7 +12,7 @@ export class Filter extends Component {
         return (
             <div>
                 <div id='topHeading'>
-                    <h2 className='roomHeading'>Find your next roommate</h2>
+                    <h2 className='roomHeading'>Find your perfect room</h2>
                     <a href={makePostButtonUrl}>
                         <button className='postButton'>Make a Post</button>
                     </a>

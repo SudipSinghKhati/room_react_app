@@ -55,7 +55,7 @@ const UserSchema = new mongoose.Schema({
     }, 
     aboutMe: {
         type: String,
-		default: `Hi, I\'m an Amigo! I\'m actively searching for a roommate. Feel free to contact me by my email or phone.`,
+		default: `Hi, I\'m an RoomFinder! I\'m actively searching for a room. Feel free to contact me by my email or phone.`,
 		trim: true
     },
 	password: {
